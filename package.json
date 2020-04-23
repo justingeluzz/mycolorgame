@@ -1,0 +1,15 @@
+{
+  "name": "mycolorgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://justingeluzz.github.io/mycolorgame",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
