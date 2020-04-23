@@ -1,4 +1,4 @@
-let numOfSquares = 6;
+let numOfSquares = 9;
 let colors = generateRandomColors(numOfSquares);
 
 let squares = document.querySelectorAll('.square');
@@ -13,7 +13,7 @@ let hardBtn  = document.querySelector('#hardBtn');
 easyBtn.addEventListener('click', function(){
      hardBtn.classList.remove('selected');
      easyBtn.classList.add('selected');
-     numOfSquares = 3;
+     numOfSquares = 6;
      colors = generateRandomColors(numOfSquares);
      pickedColor = pickColor();
      colorDisplay.textContent = pickedColor;
@@ -31,7 +31,7 @@ easyBtn.addEventListener('click', function(){
 hardBtn.addEventListener('click', function(){
      hardBtn.classList.add('selected');
      easyBtn.classList.remove('selected');
-     numOfSquares = 6;
+     numOfSquares = 9;
      colors = generateRandomColors(numOfSquares);
      pickedColor = pickColor();
      colorDisplay.textContent = pickedColor;
